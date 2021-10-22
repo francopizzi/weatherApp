@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  height: 625px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#root
+{
+  height: 625px;
+  background: -prefix-linear-gradient(top,#013a63 , #61a5c2);
+  background: linear-gradient(to bottom, #013a63, #61a5c2);
+  
+}
+@media screen and (max-width:768px)
+{
+  #root
+  {
+    height: 1024px;
+  }
+}
+@media screen and (max-width:576px)
+{
+  #root
+  {
+    height: 667px;
+  }
+}

@@ -1,0 +1,22 @@
+.pos
+{
+    display: grid;  
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.pos_img
+{
+    left: 10px;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.dim
+{
+    width: 80px;
+    height: 80px;
+    justify-self: center;
+}
+
+
+
