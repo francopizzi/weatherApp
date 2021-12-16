@@ -30,3 +30,4 @@
 - CSS
 - HTML
 - Javascript
+- <a href="http://api.openweathermap.org/">API</a>

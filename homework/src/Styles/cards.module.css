@@ -18,6 +18,7 @@
 {
   .posicion
   {
-    grid-template-columns: 200px
+    grid-template-columns: repeat (2, 200px);
+    justify-content: center;
   }
 }

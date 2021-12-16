@@ -13,6 +13,8 @@
   height: 625px;
   background: -prefix-linear-gradient(top,#013a63 , #61a5c2);
   background: linear-gradient(to bottom, #013a63, #61a5c2);
+  height: 100vh;
+  width: 100vw;
   
 }
 @media screen and (max-width:768px)
