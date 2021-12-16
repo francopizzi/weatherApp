@@ -2,7 +2,7 @@
 
 **A website fully developed in frontend to get information about de weather of cities all around the world.**
 
-What can you do❔  🤔
+*What can you do?*  🤔
 - Find the city you want on the search bar.
 - Delete the city weather of your principal screen.
 - If you click on "About" you can read a little explanation of the web.
