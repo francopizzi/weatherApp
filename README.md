@@ -1,11 +1,10 @@
 # Weather App ☀ ☁ 🌩 🌙
 
-## Objetivo 🤔
-
 **A website fully developed in frontend to get information about de weather of cities all around the world.**
-What can you do? 
-🔺 Find the city you want on the search bar.
-🔺 Delete the city weather of your principal screen.
+
+What can you do?  🤔
+- Find the city you want on the search bar.
+- Delete the city weather of your principal screen.
 
 *Link to...* <a href="https://weather-app-60hs5fduh-francopizzi.vercel.app/">Weather App</a>
 
