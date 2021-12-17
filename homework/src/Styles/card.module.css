@@ -29,7 +29,6 @@
 }
 .button
 {
-    display: grid;
     grid-row: 1/2;
 
     /*justify-content: center;
@@ -47,9 +46,15 @@
     top: 10px;*/
     border: 1px solid grey;
     border-radius: 50%;
-    font-size: 10px;
     cursor: pointer;
+
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
+
 
 .titulo
 {

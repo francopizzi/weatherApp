@@ -1,5 +1,6 @@
 import React , { useState }from 'react';
 import styles from '../Styles/search.module.css';
+import {FiSearch} from 'react-icons/fi';
 
 export default function SearchBar({onSearch}) {
   
@@ -23,9 +24,11 @@ export default function SearchBar({onSearch}) {
           placeholder="Ciudad..."
           value={city}>
           </input>
+          <button className={styles.btn}><FiSearch/></button>
+        {/*
         <button 
         className={`${styles.btn} ${styles.letra}`}>
-        Agregar</button>
+        Agregar</button> */}
   </form>
   )
 };
