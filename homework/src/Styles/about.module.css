@@ -1,21 +1,36 @@
+.bigGrid {
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: auto;
+}
+
+
+.about{
+    display: grid;
+    grid-column: 3/5;
+    grid-template-rows: 1fr 4fr;
+    width: 90%;
+    border-radius: 1rem;
+    background-color: #495057; 
+    color: white;
+    margin:1rem
+}
+
+
 .titulo
 {
+    grid-row: 1/2;
     font-family: sans-serif;
-    text-decoration: underline;
-    color: dark grey;
+    font-size: 1.5rem;
     margin-top: 40px;
-    position: relative;
-    right: 380px;
 }
 
 .parrafo
 {
+    grid-row: 2/3;
     color: white;
-    width: 800px;
-    text-align: left;
-    margin-top: 10px;
-    position: relative;
-    left:320px;
+    text-align: justify;
+    margin: 1rem;
 }
 
 
@@ -53,4 +68,32 @@
     color: #495057; 
     background-color: white;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:700px)
+{
+    .bigGrid
+    { 
+        grid-template-columns: repeat(4 , 1fr);
+    }
+    .about{
+        display: grid;
+        grid-column: 2/4;
+    }
+
+}
+
+@media screen and (max-width:450px)
+{
+    .bigGrid
+    { 
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .about{
+        display: grid;
+        grid-column: 1/3;
+    }
+
+
 }

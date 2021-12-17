@@ -8,7 +8,7 @@ export default function Card({max, min, name, img, onClose, id }) {
   return (
     <div className={`${styles.dimensionesCard} ${styles.letra}`}>
       <div className={styles.grid}>
-        <button onClick={onClose} className={styles.button}><GrFormClose/></button>
+        <button onClick={onClose} className={styles.button}>x{/*<GrFormClose/>*/}</button>
         <Link  to={`/ciudad/${id}`} className={styles.link} >
           <h3 className={styles.titulo} >{name}</h3>
         </Link>
