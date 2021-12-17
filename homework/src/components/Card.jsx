@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from '../Styles/card.module.css';
 import { Link } from 'react-router-dom';
-import {ImCross} from 'react-icons/im'
+import {GrFormClose} from 'react-icons/gr'
 
 export default function Card({max, min, name, img, onClose, id }) {
   // acá va tu código
   return (
     <div className={`${styles.dimensionesCard} ${styles.letra}`}>
       <div className={styles.grid}>
-        <button onClick={onClose} className={styles.button}><ImCross/></button>
+        <button onClick={onClose} className={styles.button}><GrFormClose/></button>
         <Link  to={`/ciudad/${id}`} className={styles.link} >
           <h3 className={styles.titulo} >{name}</h3>
         </Link>
