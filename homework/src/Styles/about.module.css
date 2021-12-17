@@ -19,30 +19,38 @@
 }
 
 
-.btn
-{
-    padding: 4px 8px;
-    background-color: #495057; 
-    border-radius: 20px;
-    border: 0.5px black;
-    
-}
 
 .letra
 {
     font-family: sans-serif;
     color:white;
+    
+}
+.link {
+    margin-top: 45px;
+    text-decoration: none;
+    box-shadow: none;
+    width: 80px;
+    height: 30px;
+
+}
+.link:hover {
+    text-decoration: none;
+    box-shadow: none;
 }
 .ab
 {
-    justify-self: center;
-    right: 100px;
-    margin-top: 40px;
-    width: 70px;
-    height: 30px;
-    text-decoration: none;
+    background-color: #495057; 
+    border-radius: 20px;
+    border: 0.5px black;
+    padding:7px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .ab:hover
 {
-    text-decoration: none;
+    transition: 1ms;
+    color: #495057; 
+    background-color: white;
+    cursor: pointer;
 }

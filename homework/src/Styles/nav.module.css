@@ -1,12 +1,12 @@
 .pos
 {
     display: grid;  
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 .pos_img
 {
-    left: 10px;
+    /* left: 10px; */
     margin-top: 10px;
     width: 80px;
 }
@@ -19,4 +19,26 @@
 }
 
 
+@media screen and (max-width:700px)
+{
+  .pos_img
+  {
+    width: 60px
+  }
+  .dim
+  {
+    width: 60px;
+    height: 60px;
+    justify-self: center;
+  }
+}
+/*
+@media screen and (max-width:450px)
+{
+  .posicion
+  {
+    grid-template-columns: 200px;
+  }
+}
+*/
 

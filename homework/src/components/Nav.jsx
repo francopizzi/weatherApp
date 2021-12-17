@@ -13,8 +13,8 @@ function Nav({onSearch}) {
         <img src={imagen1} className={styles.pos_img}/>
       </Link>
       <SearchBar onSearch={onSearch}/>
-      <Link to='/about' className={stylesbtn.ab} >
-        <span className={`${stylesbtn.btn}  ${stylesbtn.letra} `}>About</span>
+      <Link to='/about' className={stylesbtn.link} >
+        <span className={`${stylesbtn.ab}  ${stylesbtn.letra} `}>About</span>
       </Link>
       </nav>
     </div>

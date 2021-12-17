@@ -14,12 +14,14 @@ export default function SearchBar({onSearch}) {
     <form onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
+      setCity('');
     }} className={styles.bkColor}>
         <input 
           onChange={inputChange} 
           className={styles.text} 
           type="search" 
-          placeholder="Ciudad...">
+          placeholder="Ciudad..."
+          value={city}>
           </input>
         <button 
         className={`${styles.btn} ${styles.letra}`}>
