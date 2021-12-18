@@ -9,13 +9,13 @@ export default function Ciudad({city}) {
                 <h2 className={style.title}>{city.name}</h2>
                 <div className={style.container}>
                         <label className={style.text}>Temperatura:</label>
-                        <p className={style.text}>{city.temp} ºC</p>                    
+                        <p className={style.text}>{Math.round(city.temp)} ºC</p>                    
                         <label className={style.text}>Clima:</label>
                         <p className={style.text}>{city.weather}</p>
                         <label className={style.text}>Viento:</label>
                         <p className={style.text}>{city.wind} km/h</p>
                         <label className={style.text}>Cantidad de nubes:</label>
-                        <p className={style.text}>{city.clouds}</p>
+                        <p className={style.text}>{city.clouds}%</p>
                         <label className={style.text}>Latitud:</label>
                         <p className={style.text}>{city.latitud}º</p>
                         <label className={style.text}>Longitud:</label>
