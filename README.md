@@ -16,23 +16,28 @@
 
 
 - *Mobile version* 📱
+
 ![image](https://user-images.githubusercontent.com/72042861/146849932-ec06d835-b974-4eb5-8c4e-1d7104aa41eb.png)
 
 
 - *Tablet version* 📲
+
 ![image](https://user-images.githubusercontent.com/72042861/146850072-8dafa377-c91e-4411-9fbf-2a56b02cc802.png)
 
 
 ## - City Detail
 - *Browser version* 💻
+
 ![image](https://user-images.githubusercontent.com/72042861/146850228-71851993-933b-4aae-9e16-baa23cb5b00d.png)
 
 
 - *Mobile version* 📱
+
 ![image](https://user-images.githubusercontent.com/72042861/146850194-5fb82eb0-80f8-4b69-bf39-7b882f84c108.png)
 
 
 - *Tablet version* 📲
+
 ![image](https://user-images.githubusercontent.com/72042861/146850161-9a4117b9-9cc9-4131-b76d-2e324cb0b85d.png)
 
 
